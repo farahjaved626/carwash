@@ -1,4 +1,5 @@
-body { margin:0 }
+body { margin:0;
+ background:LightCyan; }
 
 #header{
 	width: 100%;
@@ -23,32 +24,35 @@ body { margin:0 }
 }
 
 #container{
-	width:100%;
-	height:1100px;
-    background:LightCyan;
+	width:1060px;
+	height:1000px;
+  
+    margin:auto;
     position: relative;
+    margin-top: 140px;
 
 }
 /***change width for container to px instead of %*/
 #owner{
-	width: 700px;
+	width: 515px;
 	height:450px;
 	background: white;
 	position: absolute;
-	margin-top: 150px;
-	margin-left: 150px;
+	margin-left: 10px;
+	border-radius: 25px;
+	
+	
+	
 }
 #info{
-	width: 700px;
-	height: 200px;
-	background:lightcyan;
+	width: 515px;
+	height: 450px;
 	position: absolute;
-	margin-left: 1100px;
-	margin-top: 150px;
 	text-align: center;
-	font-size: 60px;
+	font-size: 40px;
 	font-family: impact;
     color: gold;
+    margin-left:535px;
 
 
 
@@ -58,8 +62,8 @@ body { margin:0 }
 	height: 300px ;
 	background: white;
 	position:absolute;
-	margin-top: 650px;
-	margin-left: 700px;
+	margin-top: 550px;
+	margin-left: 140px;
 }
 
 #place{
@@ -68,8 +72,9 @@ body { margin:0 }
 
 
 }
-#w{
+img{
 	width: 100%;
 	height: 100%;
+	border-radius: 25px;
 	
 }
